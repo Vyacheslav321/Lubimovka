@@ -42,6 +42,10 @@ h1 {
   margin: 0.67em 0;
 }
 
+p {
+  margin: 0;
+}
+
 /* Grouping content
    ========================================================================== */
 
@@ -85,7 +89,6 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
 }
 
 /**

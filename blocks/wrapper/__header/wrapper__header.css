@@ -1,0 +1,4 @@
+.wrapper__header {
+  min-height: 62px;
+  border: 1px dotted #e39b9b; /* Временная для ориентира. */
+}

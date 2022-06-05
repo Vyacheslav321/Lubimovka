@@ -1,1 +1,9 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+
+@import url(../blocks/root/root.css);
+@import url(../blocks/wrapper/wrapper.css);
+@import url(../blocks/wrapper/__header/wrapper__header.css);
+@import url(../blocks/wrapper/__main/wrapper__main.css);
+@import url(../blocks/wrapper/__footer/wrapper__footer.css);

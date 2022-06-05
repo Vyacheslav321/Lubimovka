@@ -1,0 +1,18 @@
+.social-network__link {
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  color: #000;
+  position: relative;
+  padding: 1px 12px 4px 24px;
+  line-height: 0.88;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.social-network__link:before {
+  content: "→";
+  position: absolute;
+  top: -1px;
+  left: -2px;
+  font-size: 26px;
+}

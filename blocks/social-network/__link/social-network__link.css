@@ -8,7 +8,9 @@
   font-size: 16px;
   font-weight: 300;
   display: block;
-  transition: all .5s ease-in-out;
+  transition: all .2s ease-in-out;
+  overflow: hidden;
+  z-index: 1;
 }
 
 .social-network__link:after {
@@ -19,7 +21,30 @@
   font-size: 26px;
 }
 
+.social-network__link:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -100%;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  transition: .3s ease-in-out;
+  z-index: -1;
+}
+
+.social-network__link:hover:before {
+  left: 0;
+}
+
 .social-network__link:hover {
-  background-color: #000;
   color: #ECEBE8;
+  animation: outline-size 1s ease-out;
+  animation-delay: .5s;
+}
+
+@keyframes outline-size {
+  0% {outline: none;}
+  50% {outline: 4px solid black;}
+  100% {outline: none;}
 }

@@ -5,6 +5,11 @@
   padding: 0;
   justify-content: right;
   margin: 0;
-  transform: translateY(8px);
-  width: calc(50% + 50px);
+  width: calc(50% + 78px);
+}
+
+@media screen and (max-width: 510px) {
+  .social-network {
+
+  }
 }

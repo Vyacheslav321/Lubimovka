@@ -1,4 +1,15 @@
 .share-spectacles__first-word {
-  display: inline-block;
+  max-width: 666px;
+  font-size: 40px;
+  line-height: 0.3;
+  margin: 0 auto 0 auto;
+  letter-spacing: -0.01em;
   width: 100%;
+}
+
+@media screen and (max-width: 510px) {
+  .share-spectacles__first-word {
+    margin-bottom: 40px;
+  }
+
 }

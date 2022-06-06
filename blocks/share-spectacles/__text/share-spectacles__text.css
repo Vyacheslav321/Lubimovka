@@ -4,4 +4,7 @@
   line-height: 1;
   margin: 0 auto 0 auto;
   letter-spacing: -0.01em;
+  transform: translateY(-13px);
+  width: 100%;
+  line-height: 2.4;
 }

@@ -40,7 +40,7 @@
 .social-network__link:hover {
   color: #ECEBE8;
   animation: outline-size 1s ease-out;
-  animation-delay: .5s;
+  animation-delay: .2s;
 }
 
 @keyframes outline-size {

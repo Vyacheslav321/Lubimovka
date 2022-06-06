@@ -1,7 +1,7 @@
 .share-spectacles__first-word {
   max-width: 666px;
   font-size: 40px;
-  line-height: 0.3;
+  line-height: 0.6;
   margin: 0 auto 0 auto;
   letter-spacing: -0.01em;
   width: 100%;
@@ -9,7 +9,8 @@
 
 @media screen and (max-width: 510px) {
   .share-spectacles__first-word {
-    margin-bottom: 40px;
+    order: 1;
+    line-height: 1;
+    max-width: 363px;
   }
-
 }

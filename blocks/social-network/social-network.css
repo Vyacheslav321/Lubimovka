@@ -10,6 +10,10 @@
 
 @media screen and (max-width: 510px) {
   .social-network {
-
+    order: 2;
+    justify-content: start;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 363px;
   }
 }

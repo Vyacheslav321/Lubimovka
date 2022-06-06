@@ -3,7 +3,8 @@
   list-style: none;
   column-gap: 9px;
   padding: 0;
-  justify-content: center;
+  justify-content: right;
   margin: 0;
-  transform: translate(-5%, 8px);
+  transform: translateY(8px);
+  width: calc(50% + 50px);
 }

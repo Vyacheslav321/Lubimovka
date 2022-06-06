@@ -2,7 +2,6 @@
   max-width: 666px;
   font-size: 40px;
   line-height: 1;
-  margin: 0 auto;
+  margin: 0 auto 0 auto;
   letter-spacing: -0.01em;
-  transform: translateX(-50px);
 }

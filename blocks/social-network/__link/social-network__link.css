@@ -3,16 +3,23 @@
   border-left: 1px solid black;
   color: #000;
   position: relative;
-  padding: 1px 12px 4px 24px;
+  padding: 4px 12px 7px 24px;
   line-height: 0.88;
   font-size: 16px;
   font-weight: 300;
+  display: block;
+  transition: all .5s ease-in-out;
 }
 
-.social-network__link:before {
+.social-network__link:after {
   content: "→";
   position: absolute;
   top: -1px;
   left: -2px;
   font-size: 26px;
+}
+
+.social-network__link:hover {
+  background-color: #000;
+  color: #ECEBE8;
 }

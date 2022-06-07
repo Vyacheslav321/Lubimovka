@@ -9,8 +9,8 @@
   font-weight: 300;
   display: block;
   transition: all .2s ease-in-out;
-  overflow: hidden;
   z-index: 1;
+  box-sizing: border-box;
 }
 
 .social-network__link:after {
@@ -24,27 +24,39 @@
 .social-network__link:before {
   content: "";
   position: absolute;
-  bottom: 0;
-  left: -100%;
+  top: 0;
+  left: 0;
   background-color: black;
-  width: 100%;
+  width: 0%;
   height: 100%;
   transition: .3s ease-in-out;
   z-index: -1;
 }
 
 .social-network__link:hover:before {
-  left: 0;
+  width: 100%;
+  animation: scale .5s ease-out;
+  animation-delay: .2s;
 }
 
 .social-network__link:hover {
   color: #ECEBE8;
-  animation: outline-size 1s ease-out;
-  animation-delay: .2s;
 }
 
-@keyframes outline-size {
-  0% {outline: none;}
-  50% {outline: 4px solid black;}
-  100% {outline: none;}
+@keyframes scale {
+  0% {
+    width: 100%;
+    left: 0px;
+    top: -0px;
+    height: 100%;}
+  50% {
+    width: calc(100% + 10px);
+    left: -5px;
+    top: -3px;
+    height: calc(100% + 6px);}
+  100% {
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    height: 100%;}
 }

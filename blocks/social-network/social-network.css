@@ -1,0 +1,19 @@
+.social-network {
+  display: flex;
+  list-style: none;
+  column-gap: 9px;
+  padding: 0;
+  justify-content: right;
+  margin: 0;
+  width: calc(50% + 78px);
+}
+
+@media screen and (max-width: 510px) {
+  .social-network {
+    order: 2;
+    justify-content: start;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 363px;
+  }
+}

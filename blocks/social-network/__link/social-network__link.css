@@ -1,0 +1,62 @@
+.social-network__link {
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  color: #000;
+  position: relative;
+  padding: 4px 12px 7px 24px;
+  line-height: 0.88;
+  font-size: 16px;
+  font-weight: 300;
+  display: block;
+  transition: all .2s ease-in-out;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.social-network__link:after {
+  content: "→";
+  position: absolute;
+  top: -1px;
+  left: -2px;
+  font-size: 26px;
+}
+
+.social-network__link:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  width: 0%;
+  height: 100%;
+  transition: .3s ease-in-out;
+  z-index: -1;
+}
+
+.social-network__link:hover:before {
+  width: 100%;
+  animation: scale .5s ease-out;
+  animation-delay: .2s;
+}
+
+.social-network__link:hover {
+  color: #ECEBE8;
+}
+
+@keyframes scale {
+  0% {
+    width: 100%;
+    left: 0px;
+    top: -0px;
+    height: 100%;}
+  50% {
+    width: calc(100% + 10px);
+    left: -5px;
+    top: -3px;
+    height: calc(100% + 6px);}
+  100% {
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    height: 100%;}
+}

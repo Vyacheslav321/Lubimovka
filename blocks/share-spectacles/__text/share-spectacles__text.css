@@ -1,0 +1,18 @@
+.share-spectacles__text {
+  max-width: 666px;
+  font-size: 40px;
+  margin: 0 auto 0 auto;
+  letter-spacing: -0.01em;
+  transform: translateY(-13px);
+  width: 100%;
+  line-height: 2.4;
+}
+
+@media screen and (max-width: 510px) {
+  .share-spectacles__text {
+    max-width: 363px;
+    line-height: 1.1;
+    order: 3;
+    margin: 22px auto 0 auto;
+  }
+}

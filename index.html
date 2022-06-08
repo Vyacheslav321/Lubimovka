@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>Любимовка</title>
 </head>
+
 <body class="root">
   <div class="wrapper">
     <header class="wrapper__header">
@@ -17,11 +19,39 @@
     </header>
     <main class="wrapper__main">
       <p>Main</p>
+
+      <!--слайдер с комментариями зрилетей-->
+      <section class="slider">
+        <div class="slider__caption comments__caption">
+          <h2 class="slider__title comments__title">Отзывы зрителей</h2>
+          <div class="slider__controls">
+            <ul class="slider__indicator comments__indicator">
+            </ul>
+            <button type="button" class="slider__button slider__button_type_prev comments__button-prev"></button>
+            <button type="button" class="slider__button slider__button_type_next comments__button-next"></button>
+          </div>
+        </div>
+        <div class="comments__content"></div>
+      </section>
     </main>
     <footer class="wrapper__footer">
       <p>Footer</p>
     </footer>
   </div>
+
+  <template class="template-comment">
+    <div class="comment">
+      <div class="comment__text">Текст комментария</div>
+      <h7 class="comment__author">Автор</h7>
+    </div>
+  </template>
+
+  <template class="template-point">
+    <li class="slider__point"></li>
+  </template>
+  <script src="./utils/utils.js"></script>
+  <script src="./components/SliderPoint.js"></script>
+  <script src="./components/comments.js"></script>
 </body>
 
 </html>

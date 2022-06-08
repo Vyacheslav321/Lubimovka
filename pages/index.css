@@ -7,3 +7,19 @@
 @import url(../blocks/wrapper/__header/wrapper__header.css);
 @import url(../blocks/wrapper/__main/wrapper__main.css);
 @import url(../blocks/wrapper/__footer/wrapper__footer.css);
+
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__controls/slider__controls.css);
+@import url(../blocks/slider/__caption/slider__caption.css);
+@import url(../blocks/slider/__title/slider__title.css);
+@import url(../blocks/slider/__indicator/slider__indicator.css);
+@import url(../blocks/slider/__button/slider__button.css);
+@import url(../blocks/slider/__button/_type/slider__button_type_prev.css);
+@import url(../blocks/slider/__button/_type/slider__button_type_next.css);
+@import url(../blocks/slider/__point/slider__point.css);
+@import url(../blocks/slider/__point/_active/slider__point_active.css);
+
+@import url(../blocks/comments/__content/comments__content.css);
+@import url(../blocks/comment/comment.css);
+@import url(../blocks/comment/__text/comment__text.css);
+@import url(../blocks/comment/__author/comment__author.css);

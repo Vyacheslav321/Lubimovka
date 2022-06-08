@@ -1,0 +1,8 @@
+.comments__content {
+  width: 100%;
+  margin: 56px 0 0;
+  padding: 0 60px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}

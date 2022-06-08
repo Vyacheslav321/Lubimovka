@@ -1,0 +1,13 @@
+.comment {
+  margin: 0;
+  padding: 33px 30px 27px;
+  box-sizing: border-box;
+  width: 420px;
+  min-height: 361px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  background: #FFFFFF;
+  color: #242424;
+}

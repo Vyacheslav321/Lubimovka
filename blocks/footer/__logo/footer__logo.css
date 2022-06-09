@@ -1,0 +1,9 @@
+.footer__logo {
+    grid-area: logo;
+    margin: 0;
+    padding: 0;
+    background-image: url(../../../images/footer/lubimovka.svg);
+    background-size: 93px 81px;
+    background-repeat: no-repeat;
+    
+}

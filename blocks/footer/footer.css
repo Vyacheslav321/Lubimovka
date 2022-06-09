@@ -1,0 +1,17 @@
+.footer {
+    margin: 0;
+    padding: 42px 32px 56px;
+    /* width: 100%; */
+    max-width: 1440px;
+    max-height: 492px;
+    background-color: #ECEBE8;
+    display: grid;
+    column-gap:75px;
+    row-gap: 15px;
+    grid-template-areas: 
+    "logo general general"
+    "logo adress menu"
+    "logo copyright design";
+    grid-template-columns: 95px auto auto;
+    grid-template-rows: 80px auto 40px;
+}

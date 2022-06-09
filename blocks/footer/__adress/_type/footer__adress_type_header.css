@@ -1,0 +1,12 @@
+.footer__adress_type_header {
+  margin: 0;
+  padding: 4px 0 19px 8px;
+  font-family: "NeueMachina", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  letter-spacing: -0.01em;
+  color: #242424;
+}

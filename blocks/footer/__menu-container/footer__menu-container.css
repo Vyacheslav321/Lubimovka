@@ -1,0 +1,8 @@
+.footer__menu-container {
+    grid-area: menu;
+    align-content: start;
+    justify-content: end;
+    display: flex;
+    margin: 0;
+    padding: 0 44px 0 0;
+}

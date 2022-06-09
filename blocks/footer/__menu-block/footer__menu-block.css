@@ -1,0 +1,10 @@
+.footer__menu-block {
+  margin: 0;
+  padding: 7px 40px;
+  min-width: fit-content;
+  list-style: none;
+}
+
+.footer__menu-block:last-of-type {
+
+}

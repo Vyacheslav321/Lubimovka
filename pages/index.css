@@ -1,1 +1,22 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/FormularLight/formular-light.css);
+@import url(../vendor/fonts/NeuMachinaRegular/PPNeueMachina-Regular.css);
+
+/* FOOTER */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__general/footer__general.css);
+@import url(../blocks/footer/__general/_type/footer__general_type_header.css);
+@import url(../blocks/footer/__general/_type/footer__general_type_logo.css);
+@import url(../blocks/footer/__link-container/footer__link-container.css);
+@import url(../blocks/footer/__general/_type/footer__general_type_link.css);
+@import url(../blocks/footer/__adress/footer__adress.css);
+@import url(../blocks/footer/__adress/_type/footer__adress_type_header.css);
+@import url(../blocks/footer/__adress/_type/footer__adress_type_text.css);
+@import url(../blocks/footer/__menu-container/footer__menu-container.css);
+@import url(../blocks/footer/__menu-block/footer__menu-block.css);
+@import url(../blocks/footer/__menu-block/_type/footer__menu-block_type_header.css);
+@import url(../blocks/footer/__menu-block/_type/footer__menu-block_type_text.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__design/footer__design.css);

@@ -6,6 +6,8 @@
     font-size: 16px;
     line-height: 22px;
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .nav__link:hover{

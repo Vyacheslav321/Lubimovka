@@ -1,0 +1,13 @@
+.nav__link{
+    text-decoration: none;
+    color: #000;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.nav__link:hover{
+    text-decoration: underline;
+}

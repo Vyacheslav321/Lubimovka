@@ -1,4 +1,6 @@
 .wrapper__header {
   min-height: 62px;
+  display: flex;
   border: 1px dotted #e39b9b; /* Временная для ориентира. */
+  border-bottom: #242424 solid 1px;
 }

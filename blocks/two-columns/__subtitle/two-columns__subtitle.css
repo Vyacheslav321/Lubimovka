@@ -1,0 +1,11 @@
+.two-columns__subtitle {
+    max-width: 418px;
+    padding: 0;
+    margin-bottom: 210px;
+    margin-left: 25%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+}

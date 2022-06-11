@@ -1,0 +1,4 @@
+.two-columns__sections {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,12 @@
+.two-columns__title {
+    width: calc(70% + 30px);
+    text-align: right;
+    padding: 0;
+    margin: 82px 0 47px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 0.97;
+    letter-spacing: -0.01em;
+
+}

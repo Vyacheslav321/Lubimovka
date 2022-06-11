@@ -1,0 +1,4 @@
+.two-columns__time {
+    width: calc(50% + 140px);
+    text-align: right;
+}

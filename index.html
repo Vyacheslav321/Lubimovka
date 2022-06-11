@@ -1,5 +1,6 @@
-  <!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,35 +11,98 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>Любимовка</title>
 </head>
+
 <body class="root">
-<div class="wrapper">
-  <header class="wrapper__header">
-    <p>Header</p>
-  </header>
-  <main class="wrapper__main">
+  <div class="wrapper">
+    <header class="wrapper__header">
+      <p>Header</p>
+    </header>
+    <main class="wrapper__main">
 
-    <!--Share spectacles-->
-    <section class="share-spectacles">
-      <div class="banner share-spectacles__container">
-        <img class="banner__image" src="./images/spectacles-scene.jpg" alt="Спектальная сцена">
-      </div>
-      <div class="share-spectacles__wrapper">
-        <ul class="social-network">
-          <li class="social-network__item"><a class="social-network__link interface-text" href="#">fb</a></li>
-          <li class="social-network__item"><a class="social-network__link interface-text" href="#">vk</a></li>
-          <li class="social-network__item"><a class="social-network__link interface-text" href="#">twtr</a></li>
-        </ul>
-        <div class="share-spectacles__first-word"><p>Рассказать</p></div>
-        <div class="share-spectacles__text"><p>о&nbsp;спектакле в&nbsp;соцсетях</p>
+      <!--Two columns section-->
+      <section class="two-columns">
+        <div class="two-columns__sections">
+          <div class="two-columns__container">
+            <a class="two-columns__projects-link interface-text" href="#">ПРОЕКТЫ</a>
+            <h1 class="two-columns__title">С_училища</h1>
+            <p class="two-columns__subtitle">Пьеса о демоническом обаянии студентки ПТУ и ее роковой роли в жизни
+              преподавателя философии.</p>
+            <p class="two-columns__date">12 мая 20:00</p>
+            <a class="two-columns__tickets interface-text" href="#">БИЛЕТЫ</a>
+          </div>
+          <div class="two-columns__container">
+            <img class="two-columns__photo" src="./images/from-school.jpg">
+            <p class="two-columns__photo-text">Семён Серзин сделал читку этой пьесы в рамках основной программы
+              Любимовки-2017, Варочный Цех предоставил грант на постановку, а Московский драматический театр имени А.С.
+              Пушкина принял спектакль в репертуар.</p>
+          </div>
         </div>
-      </div>
-    </section>
+        <div class="two-columns__sections">
+          <div class="two-columns__container">
+            <h2 class="two-columns__time">1 ч. 15 мин. | 18+</h2>
+            <ul class="two-columns__cast">
+              <li>
+                <h3 class="two-columns__role">Драматург</h3>
+                <p class="two-columns__actor">Роберт Аскинс</p>
+              </li>
+              <li>
+                <h3 class="two-columns__role">Перевод</h3>
+                <p class="two-columns__actor">Оксана Алёшина</p>
+              </li>
+              <li>
+                <h3 class="two-columns__role">Адаптация текста</h3>
+                <p class="two-columns__actor">Валерий Печейкин</p>
+              </li>
+              <li>
+                <h3 class="two-columns__role">Режиссёр</h3>
+                <p class="two-columns__actor">Юрий Муравицкий</p>
+              </li>
+              <li>
+                <h3 class="two-columns__role">Актёры</h3>
+                <p class="two-columns__actor">Фёдор Кокорев, Коля Ноекёльн, Ксения Чекина, Александр Пронькин, Владимир
+                  Морозов, Светлана Маршанкина</p>
+              </li>
+            </ul>
+          </div>
+          <div class="two-columns__container">
+            <iframe class="video" title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen srcdoc="<style>*{padding:0;margin:0;overflow:hidden}
+                img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+                span{margin-left:314px;height:31px;width:44px;text-align:center;font:16,45px;color:black;padding-top:13px;padding-left:3px;background-color:white;border-radius:40px}
+                </style>
+                <a href=https://www.youtube.com/embed/_GvtV2bfc7Q?autoplay=1>
+                <img src='./images/video-poster.jpg' alt='video'>
+                <span>▶</span>
+              </a>"></iframe>
+          </div>
+      </section>
 
-  </main>
-  <footer class="wrapper__footer">
-    <p>Footer</p>
-  </footer>
-</div>
+      <!--Share spectacles-->
+      <section class="share-spectacles">
+        <div class="banner share-spectacles__container">
+          <img class="banner__image" src="./images/spectacles-scene.jpg" alt="Спектальная сцена">
+        </div>
+        <div class="share-spectacles__wrapper">
+          <ul class="social-network">
+            <li class="social-network__item"><a class="social-network__link interface-text" href="#">fb</a></li>
+            <li class="social-network__item"><a class="social-network__link interface-text" href="#">vk</a></li>
+            <li class="social-network__item"><a class="social-network__link interface-text" href="#">twtr</a></li>
+          </ul>
+          <div class="share-spectacles__first-word">
+            <p>Рассказать</p>
+          </div>
+          <div class="share-spectacles__text">
+            <p>о&nbsp;спектакле в&nbsp;соцсетях</p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <footer class="wrapper__footer">
+      <p>Footer</p>
+    </footer>
+  </div>
 </body>
 
 </html>

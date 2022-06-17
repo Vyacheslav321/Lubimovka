@@ -1,0 +1,11 @@
+.two-columns__cast {
+    list-style-type: none;
+    margin: 23px 0 0 182px;
+    padding: 0;
+}
+
+@media screen and (max-width: 645px) {
+    .two-columns__cast {
+        margin: 20px 0 72px 27px;
+    }
+}

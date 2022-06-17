@@ -9,3 +9,27 @@
     line-height: 1.2;
     letter-spacing: -0.01em;
 }
+
+@media screen and (max-width: 1155px) {
+    .two-columns__subtitle {
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width: 1015px) {
+    .two-columns__subtitle {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 1.1;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .two-columns__subtitle {
+        max-width: 73%;
+        font-weight: 400;
+        line-height: 1.2;
+        margin-left: 20%;
+        margin-bottom: 31px;
+    }
+}

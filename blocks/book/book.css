@@ -1,0 +1,11 @@
+.book {
+    width: 240px;
+    margin-bottom: 144px;
+}
+
+@media screen and (max-width: 645px) {
+    .book {
+        width: 244px;
+        margin: 0 auto 100px;
+    }
+}

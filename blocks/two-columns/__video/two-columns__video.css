@@ -1,0 +1,13 @@
+.two-columns__video {
+    width: calc(100% - 29px);
+    height: 389px;
+    margin-bottom: 62px;
+}
+
+@media screen and (max-width: 645px) {
+    .two-columns__video {
+        width: calc(100% - 48px);
+        margin: 24px 0 32px 24px;
+        height: 206px;
+    }
+}

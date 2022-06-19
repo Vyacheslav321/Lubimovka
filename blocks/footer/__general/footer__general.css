@@ -1,9 +1,11 @@
 .footer__general {
     grid-area: general;
     margin: 0;
-    padding: 6px 0 13px;
+    padding: 0;
     height: 34px;
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: row; */
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
 }

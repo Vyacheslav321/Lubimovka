@@ -1,10 +1,18 @@
 .footer__menu-block {
   margin: 0;
-  padding: 7px 40px;
+
   min-width: fit-content;
   list-style: none;
 }
 
-.footer__menu-block:last-of-type {
+.footer__menu-block:nth-child(1) {
+  padding: 7px 63px;
+}
 
+.footer__menu-block:nth-child(2) {
+  padding: 7px 37px;
+}
+
+.footer__menu-block:nth-child(3) {
+  padding: 7px 40px;
 }

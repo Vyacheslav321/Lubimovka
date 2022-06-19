@@ -18,5 +18,10 @@
 @import url(../blocks/footer/__menu-block/footer__menu-block.css);
 @import url(../blocks/footer/__menu-block/_type/footer__menu-block_type_header.css);
 @import url(../blocks/footer/__menu-block/_type/footer__menu-block_type_text.css);
+@import url(../blocks/footer/__copyright-container/footer__copyright-container.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__copyright/_type/footer__copyright_type_politika.css);
+@import url(../blocks/footer/__design-container/footer__design-container.css);
 @import url(../blocks/footer/__design/footer__design.css);
+@import url(../blocks/footer/__design/_type/footer__design_type_shishki.css);
+@import url(../blocks/footer/__design/_type/footer__design_type_yandex.css);

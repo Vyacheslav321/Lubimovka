@@ -1,0 +1,6 @@
+.footer__design-container {
+    grid-area: design;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end
+}

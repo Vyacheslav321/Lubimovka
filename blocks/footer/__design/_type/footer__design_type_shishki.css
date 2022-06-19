@@ -1,0 +1,8 @@
+.footer__design_type_shishki {
+  background-image: url(../../../../images/footer/shishki.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-top: 18px;
+  padding: 0 0 0 30px;
+  max-width: 152px;
+}

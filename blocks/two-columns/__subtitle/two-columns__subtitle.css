@@ -16,11 +16,12 @@
     }
 }
 
-@media screen and (max-width: 1015px) {
+@media screen and (max-width: 1024px) {
     .two-columns__subtitle {
         font-weight: 300;
         font-size: 20px;
         line-height: 1.1;
+        max-width: 330px;
     }
 }
 

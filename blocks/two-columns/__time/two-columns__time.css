@@ -1,5 +1,5 @@
 .two-columns__time {
-    margin: 0 0 0 184px;
+    margin: 0 0 23px 0;
     padding: 0;
     text-align: left;
     font-style: normal;
@@ -11,7 +11,6 @@
 
 @media screen and (max-width: 645px) {
     .two-columns__time {
-        margin-left: 29px;
         margin-top: 58px;
     }
 }

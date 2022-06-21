@@ -34,8 +34,13 @@
 @import url(../blocks/two-columns/__cast/two-columns__cast.css);
 @import url(../blocks/two-columns/__actor/two-columns__actor.css);
 @import url(../blocks/two-columns/__role/two-columns__role.css);
-@import url(../blocks/two-columns/__video/two-columns__video.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
+
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__hidden/video__hidden.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
+@import url(../blocks/video/__play-btn/video__play-btn.css);
+@import url(../blocks/video/__poster/video__poster.css);
 
 @import url(../blocks/book/book.css);
 @import url(../blocks/book/__author/book__author.css);

@@ -1,0 +1,20 @@
+.gallery__title {
+  margin: 0 510px 40px 362px;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+
+  max-width: 327px;
+  width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+  .gallery__title {
+    font-size: 28px;
+    line-height: 1.14;
+    max-width: 250px;
+    margin: 0 21px 20px 24px;
+  }
+  
+}

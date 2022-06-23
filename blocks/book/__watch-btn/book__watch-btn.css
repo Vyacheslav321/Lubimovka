@@ -1,0 +1,50 @@
+.book__watch-btn {
+    border-bottom: 1px solid #242424;
+    border-top: 1px solid #242424;
+    color: #000;
+    position: relative;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.38;
+    text-align: left;
+    background: #B7C09D;
+    width: 100%;
+    height: 56px;
+    display: block;
+    z-index: 1;
+    transition: all .2s ease-in-out;
+    padding: 15px 0 18px 16px;
+    margin: 0;
+}
+
+.book__watch-btn::after {
+    content: "↗";
+    position: absolute;
+    top: 11px;
+    right: 15px;
+    font-size: 26px;
+}
+
+.book__watch-btn::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 0%;
+    height: 100%;
+    transition: .3s ease-in-out;
+    z-index: -1;
+}
+
+.book__watch-btn:hover {
+    color: #ECEBE8;
+}
+
+.book__watch-btn:hover::before {
+    width: 100%;
+    animation: all 0.5s ease-out;
+    animation-delay: .2s;
+}

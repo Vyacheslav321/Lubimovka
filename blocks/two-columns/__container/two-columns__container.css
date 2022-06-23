@@ -1,0 +1,9 @@
+.two-columns__container {
+    width: 50%;
+}
+
+@media screen and (max-width: 645px) {
+    .two-columns__container {
+        width: 100%;
+    }
+}

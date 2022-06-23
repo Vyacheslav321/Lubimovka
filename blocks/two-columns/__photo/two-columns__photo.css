@@ -1,0 +1,11 @@
+.two-columns__photo {
+    width: 100%;
+    max-height: 614px;
+    margin: 94px 0 43px;
+}
+
+@media screen and (max-width: 645px) {
+    .two-columns__photo {
+        margin: 38px 0 56px;
+    }
+}

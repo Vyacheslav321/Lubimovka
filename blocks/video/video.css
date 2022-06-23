@@ -1,0 +1,15 @@
+.video {
+    position: relative;
+    max-width: 691px;
+    max-height: 389px;
+    margin: 0 30px 66px 0;
+    aspect-ratio: 16/9;
+}
+
+@media screen and (max-width: 645px) {
+    .video {
+        max-width: 366px;
+        max-height: 206px;
+        margin: 24px auto 32px;
+    }
+}

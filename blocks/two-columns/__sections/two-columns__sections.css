@@ -1,0 +1,10 @@
+.two-columns__sections {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 645px) {
+    .two-columns__sections {
+        flex-direction: column;
+    }
+}

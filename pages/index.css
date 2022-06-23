@@ -18,3 +18,34 @@
 @import url(../blocks/social-network/social-network.css);
 @import url(../blocks/social-network/__item/social-network__item.css);
 @import url(../blocks/social-network/__link/social-network__link.css);
+
+@import url(../blocks/two-columns/two-columns.css);
+@import url(../blocks/two-columns/__date/two-columns__date.css);
+@import url(../blocks/two-columns/__sections/two-columns__sections.css);
+@import url(../blocks/two-columns/__container/two-columns__container.css);
+@import url(../blocks/two-columns/__container/_type/two-columns__container_type_cast.css);
+@import url(../blocks/two-columns/__photo-text/two-columns__photo-text.css);
+@import url(../blocks/two-columns/__photo/two-columns__photo.css);
+@import url(../blocks/two-columns/__projects-link/two-columns__projects-link.css);
+@import url(../blocks/two-columns/__subtitle/two-columns__subtitle.css);
+@import url(../blocks/two-columns/__tickets/two-columns__tickets.css);
+@import url(../blocks/two-columns/__title/two-columns__title.css);
+@import url(../blocks/two-columns/__time/two-columns__time.css);
+@import url(../blocks/two-columns/__cast/two-columns__cast.css);
+@import url(../blocks/two-columns/__actor/two-columns__actor.css);
+@import url(../blocks/two-columns/__role/two-columns__role.css);
+@import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
+
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__hidden/video__hidden.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
+@import url(../blocks/video/__play-btn/video__play-btn.css);
+@import url(../blocks/video/__poster/video__poster.css);
+
+@import url(../blocks/book/book.css);
+@import url(../blocks/book/__author/book__author.css);
+@import url(../blocks/book/__city-year/book__city-year.css);
+@import url(../blocks/book/__download-btn/book__download-btn.css);
+@import url(../blocks/book/__title/book__title.css);
+@import url(../blocks/book/__watch-btn/book__watch-btn.css);
+@import url(../blocks/book/__hidden-title/book__hidden-title.css);

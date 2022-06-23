@@ -1,0 +1,31 @@
+.two-columns__paragraph {
+    font-family: 'Formular', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'ss01' on;
+    padding: 0;
+    margin: 0 0 26px;
+    max-width: 602px;
+    text-indent: 60px;
+}
+
+.two-columns__paragraph:first-of-type {
+    text-indent: 0;
+}
+
+.two-columns__paragraph:last-of-type {
+    margin: 0 0 80px;
+}
+
+@media screen and (max-width: 645px) {
+    .two-columns__paragraph {
+        margin: 0 24px 26px 25px;
+    }
+
+    .two-columns__paragraph:last-of-type {
+        margin: 0 24px 100px 25px;
+    }
+}

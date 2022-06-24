@@ -8,8 +8,13 @@
     text-align: center;
     display: flex;
     align-items: center;
+    white-space: nowrap;
 }
 
 .nav__link:hover{
     text-decoration: underline;
+}
+
+.nav__link:last-of-type{
+    margin-right: auto;
 }

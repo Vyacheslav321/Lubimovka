@@ -1,3 +1,9 @@
 .gallery {
   margin-bottom: 150px;
 }
+
+@media screen and (max-width: 425px){
+  .gallery {
+    margin-bottom: 100px;
+  }
+}

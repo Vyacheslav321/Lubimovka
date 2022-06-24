@@ -6,7 +6,7 @@ export class Burger {
 
   _handleToggle() {
     this.navElement.classList.toggle('nav_is-opened');
-    this.navElement.style = 'transition: margin .6s ease-in-out;'
+    this.navElement.style = 'transition: margin-top .6s ease-in-out;'
     this.burgerElement.classList.toggle('menu-burger_is-active');
   }
 

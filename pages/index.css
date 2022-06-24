@@ -8,6 +8,13 @@
 @import url(../blocks/wrapper/__main/wrapper__main.css);
 @import url(../blocks/wrapper/__footer/wrapper__footer.css);
 
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/nav/__link/nav__link.css);
+@import url(../blocks/nav/__link/_accent/nav__link_accent.css);
+@import url(../blocks/nav/__plus/nav__plus.css);
+
 @import url(../blocks/share-spectacles/share-spectacles.css);
 @import url(../blocks/share-spectacles/__container/share-spectacles__container.css);
 @import url(../blocks/share-spectacles/__text/share-spectacles__text.css);

@@ -1,11 +1,17 @@
 .header__container{
-    max-width: 257px;
-    padding-left: 24px;
-    padding-right: 22px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    border-left: #242424 solid 1px;
-    border-right: #242424 solid 1px;
+  max-width: 257px;
+  padding-left: 24px;
+  padding-right: 22px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-left: #242424 solid 1px;
+  border-right: #242424 solid 1px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__container {
+    margin: 0;
+  }
 }

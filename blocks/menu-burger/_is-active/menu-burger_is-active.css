@@ -1,0 +1,14 @@
+.menu-burger_is-active .menu-burger__line:before {
+  top: 5px;
+  transform: rotate(45deg);
+}
+
+.menu-burger_is-active .menu-burger__line:after {
+  transform: rotate(-45deg);
+  bottom: 5px;
+}
+
+.menu-burger_is-active .menu-burger__line_middle {
+  transform: scale(0);
+  transition: all 0.3s ease 0s;
+}

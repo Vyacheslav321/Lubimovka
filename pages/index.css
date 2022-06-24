@@ -14,6 +14,11 @@
 @import url(../blocks/nav/__link/nav__link.css);
 @import url(../blocks/nav/__link/_accent/nav__link_accent.css);
 @import url(../blocks/nav/__plus/nav__plus.css);
+@import url(../blocks/nav/_is-opened/nav_is-opened.css);
+@import url(../blocks/menu-burger/menu-burger.css);
+@import url(../blocks/menu-burger/__line/menu-burger__line.css);
+@import url(../blocks/menu-burger/__line/_middle/menu-burger__line-middle.css);
+@import url(../blocks/menu-burger/_is-active/menu-burger_is-active.css);
 
 @import url(../blocks/share-spectacles/share-spectacles.css);
 @import url(../blocks/share-spectacles/__container/share-spectacles__container.css);

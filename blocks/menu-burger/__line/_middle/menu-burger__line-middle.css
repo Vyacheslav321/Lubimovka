@@ -1,0 +1,8 @@
+.menu-burger__line_middle {
+  position: absolute;
+  background-color: #ECEBE8;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  top: 5px;
+}

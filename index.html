@@ -13,30 +13,34 @@
 </head>
 
 <body class="root">
-  <div class="wrapper">
-    <header class="wrapper__header">
-      <a href="#" class="header__logo-link"><img src="/images/logo.svg" class="header__logo" alt="Логотип"></a>
-      <nav class="nav">
-        <a href="#" class="nav__link">Афиша</a>
-        <a href="#" class="nav__link">Библиотека</a>
-        <a href="#" class="nav__link">Проекты</a>
-        <a href="#" class="nav__link">История</a>
-        <a href="#" class="nav__link">Блог</a>
-        <a href="#" class="nav__link">Новости</a>
-        <a href="#" class="nav__link">О фестивале</a>
-        <a href="#" class="nav__link">Контакты</a>
-      </nav>
-      <div class="header__container">
-        <a href="#" class="nav__link">fb</a>
-        <a href="#" class="nav__link">inst</a>
-        <a href="#" class="nav__link">ytube</a>
-        <a href="#" class="nav__link">tlgrm</a>
-        <a href="#" class="nav__link">vk</a>
+<div class="wrapper">
+  <header class="wrapper__header">
+    <a href="#" class="header__logo-link"><img src="/images/logo.svg" class="header__logo" alt="Логотип"></a>
+    <nav class="nav">
+      <a href="#" class="nav__link">Афиша</a>
+      <a href="#" class="nav__link">Библиотека</a>
+      <a href="#" class="nav__link">Проекты</a>
+      <a href="#" class="nav__link">История</a>
+      <a href="#" class="nav__link">Блог</a>
+      <a href="#" class="nav__link">Новости</a>
+      <a href="#" class="nav__link">О фестивале</a>
+      <a href="#" class="nav__link">Контакты</a>
+    </nav>
+    <button class="menu-burger">
+      <div class="menu-burger__line">
+        <span class="menu-burger__line_middle"></span>
       </div>
-      <a href="#" class="nav__link nav__link_accent"><img src="/images/plus.svg" alt="значек плюс"
-          class="nav__plus">поддержать</a>
-    </header>
-    <main class="wrapper__main">
+    </button>
+    <div class="header__container">
+      <a href="#" class="nav__link">fb</a>
+      <a href="#" class="nav__link">inst</a>
+      <a href="#" class="nav__link">ytube</a>
+      <a href="#" class="nav__link">tlgrm</a>
+      <a href="#" class="nav__link">vk</a>
+    </div>
+      <a href="#" class="nav__link nav__link_accent"><img src="/images/plus.svg" alt="значек плюс" class="nav__plus">поддержать</a>
+  </header>
+  <main class="wrapper__main">
 
       <!--Two columns section-->
       <section class="two-columns">
@@ -135,6 +139,7 @@
               <p class="book__city-year">Санкт-Петербург<br>2020</p>
             </div>
           </div>
+        </div>
       </section>
 
       <!--Share spectacles-->
@@ -164,6 +169,7 @@
   </div>
 
   <script src="./video.js"></script>
+  <script type="module" src="./pages/index.js"></script>
 </body>
 
 </html>

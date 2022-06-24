@@ -1,0 +1,28 @@
+.menu-burger__line {
+  width: 22px;
+  height: 12px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.menu-burger__line:before {
+  content: '';
+  background-color: #ECEBE8;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  top: 0;
+  transition: all 0.3s ease 0s;
+}
+
+.menu-burger__line:after {
+  content: '';
+  background-color: #ECEBE8;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  transition: all 0.3s ease 0s;
+}

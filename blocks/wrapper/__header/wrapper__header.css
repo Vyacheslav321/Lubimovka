@@ -1,7 +1,12 @@
 .wrapper__header {
-  min-height: 56px;
-  margin-top: 6px;
+  min-height: 62px;
   display: flex;
   justify-content: space-between;
   border-bottom: #242424 solid 1px;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper__header {
+    flex-wrap: wrap-reverse;
+  }
 }

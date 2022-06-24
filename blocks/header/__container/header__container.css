@@ -15,38 +15,3 @@
     margin: 0;
   }
 }
-
-@media screen and (max-width: 645px) {
-  .header__container {
-    margin: 0;
-    padding: 0;
-    order: 2;
-    width: 100%;
-    flex-wrap: wrap-reverse;
-    max-width: 100%;
-    gap: 0;
-    border: 0;
-    align-items: start;
-  }
-
-  .header__container .nav__link {
-    display: block;
-    flex: 1 1 50%;
-    outline: 1px solid black;
-    padding: 15px;
-    box-sizing: border-box;
-    text-align: left;
-    position: relative;
-    font-size: 16px;
-    line-height: 1.38;
-  }
-  .header__container .nav__link:after {
-    content: '';
-    background-image: url(../../../images/arrow-right.svg);
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    right: 15px;
-    top: 15px;
-  }
-}

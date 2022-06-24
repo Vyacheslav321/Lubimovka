@@ -1,20 +1,16 @@
 export class Burger {
-  constructor(blockSelector, burgerSelector) {
-    this.blockSelector = blockSelector;
-    this.burgerSelector = burgerSelector;
-    
-    this.blockElement = document.querySelector(`.${this.blockSelector}`)
-    this.burgerElement = document.querySelector(`.${this.burgerSelector}`)
-  } 
-
-  handleToggle() {
-    this.blockElement.classList.toggle(`${this.blockSelector}_is-active`);
-    this.blockElement.style = 'transition: all .6s ease-in-out;'
-    this.burgerElement.classList.toggle(`${this.burgerSelector}_is-active`);
+  constructor(navSelector, burgerSelector) {
+    this.navElement = document.querySelector(navSelector);
+    this.burgerElement = document.querySelector(burgerSelector);
   }
-  
-  disableScroll() {
-    const rootElement = document.querySelector('.root');
-    rootElement.classList.toggle('root_lock');
+
+  _handleToggle() {
+    this.navElement.classList.toggle('nav_is-opened');
+    this.navElement.style = 'transition: margin .6s ease-in-out;'
+    this.burgerElement.classList.toggle('menu-burger_is-active');
+  }
+
+  handleListeners() {
+    this.burgerElement.addEventListener('click', () => this._handleToggle());
   }
 }

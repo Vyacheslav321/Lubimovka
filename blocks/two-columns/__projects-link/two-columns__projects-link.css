@@ -73,6 +73,10 @@
 
 @media screen and (max-width: 645px) {
     .two-columns__projects-link {
-        margin: 30px 0 0 19px;
+        position: absolute;
+        top: 30px;
+        left: 86px;
+        margin: 0;
+        transform: translateY(-50%);
     }
 }

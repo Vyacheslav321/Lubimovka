@@ -20,3 +20,11 @@
 .menu-burger:hover {
   opacity: .8;
 }
+
+@media screen and (max-width: 645px) {
+  .menu-burger {
+    position: fixed;
+    right: 0;
+    bottom: 12%;
+  }
+}

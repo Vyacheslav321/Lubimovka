@@ -1,6 +1,12 @@
 .nav__plus{
-    width: 25px;
-    height: 25px;
-    object-position: bottom;
-    padding-left: 17px;
+  width: 25px;
+  height: 25px;
+  object-position: bottom;
+  padding-left: 17px;
+}
+
+@media screen and (max-width: 645px) {
+  .nav__plus {
+    display: none;
+  }
 }

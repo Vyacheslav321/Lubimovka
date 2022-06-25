@@ -1,0 +1,23 @@
+@media screen and (max-width: 645px) {
+  .button-link {
+    padding: 15px;
+    order: 1;
+    border: 1px solid black;
+    border-right: none;
+    width: calc(100% - 54px);
+    margin: 0 0 10% auto;
+    font-size: 16px;
+    line-height: 1.38;
+    position: relative;
+  }
+
+  .button-link:after {
+    content: '';
+    background-image: url(../../images/arrow-right.svg);
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+}

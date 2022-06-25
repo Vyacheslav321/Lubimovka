@@ -1,0 +1,5 @@
+@media screen and (max-width: 645px) {
+  .header__body_is-active {
+    top: 0;
+  }
+}

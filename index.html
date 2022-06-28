@@ -57,7 +57,7 @@
             <a class="two-columns__tickets interface-text" href="#">БИЛЕТЫ</a>
           </div>
           <div class="two-columns__container">
-            <img class="two-columns__photo" src="./images/from-school.jpg">
+            <img class="two-columns__photo" src="./images/from-school.jpg" alt="девушка с вуалью.">
             <p class="two-columns__photo-text">Семён Серзин сделал читку этой пьесы в рамках основной программы
               Любимовки-2017, Варочный Цех предоставил грант на постановку, а Московский драматический театр имени А.С.
               Пушкина принял спектакль в репертуар.</p>
@@ -95,7 +95,7 @@
           <div class="two-columns__container">
             <div class="video">
               <button class="video__play-btn"></button>
-              <img class="video__poster" src="./images/video-poster.jpg">
+              <img class="video__poster" src="./images/video-poster.jpg" alt="превью видео.">
               <iframe class="video__hidden" title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
@@ -145,6 +145,51 @@
         </div>
       </section>
 
+      <section class="gallery">
+        <h2 class="gallery__title">Заголовок блока с фотографиями</h2>
+        <ul class="gallery__list">
+          <li class="gallery__item">
+            <a data-fancybox="gallery" data-src="./images/rectangle-193.jpg">
+              <img class="gallery__image" src="./images/rectangle-193.jpg" alt="Мужчина и женщина на сцене">
+            </a>
+          </li>
+          <li class="gallery__item">
+            <a data-fancybox="gallery" data-src="./images/rectangle-194.jpg">
+              <img class="gallery__image" src="./images/rectangle-194.jpg" alt="Женщина, читающая пьесу">
+            </a>
+          </li>
+          <li class="gallery__item">
+            <a data-fancybox="gallery" data-src="./images/rectangle-158.jpg">
+              <img class="gallery__image" src="./images/rectangle-158.jpg" alt="Мужчина, читающий пьесу">
+            </a>
+          </li>
+          <li class="gallery__item">
+            <a data-fancybox="gallery" data-src="./images/rectangle-160.jpg">
+              <img class="gallery__image" src="./images/rectangle-160.jpg" alt="Люди, читающие пьесу">
+            </a>
+          </li>
+          <li class="gallery__item">
+            <a data-fancybox="gallery" data-src="./images/rectangle-196.jpg">
+              <img class="gallery__image" src="./images/rectangle-196.jpg" alt="Слушатели пьесы">
+            </a>
+          </li>
+          <li class="gallery__item">
+            <a data-fancybox="gallery" data-src="./images/rectangle-197.jpg">
+              <img class="gallery__image" src="./images/rectangle-197.jpg" alt="Девушка, читающая пьесу">
+            </a>
+          </li>
+          <li class="gallery__item">
+            <a data-fancybox="gallery" data-src="./images/rectangle-195.jpg">
+              <img class="gallery__image" src="./images/rectangle-195.jpg" alt="Люди, читающие пьесу">
+            </a>
+          </li>
+          <li class="gallery__item">
+            <a data-fancybox="gallery" data-src="./images/rectangle-198.png">
+              <img class="gallery__image" src="./images/rectangle-198.png" alt="Девушка, читающая пьесу">
+            </a>
+          </li>
+        </ul>
+      </section>
       <!--Share spectacles-->
       <section class="share-spectacles">
         <div class="banner share-spectacles__container">
@@ -173,6 +218,7 @@
 
   <script src="./video.js"></script>
   <script type="module" src="./pages/index.js"></script>
+  <script type="module" src="./vendor/fancyapps.js"></script>
 </body>
 
 </html>

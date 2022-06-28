@@ -1,0 +1,4 @@
+.gallery__item {
+  max-height: 251px;
+  cursor: pointer;
+}

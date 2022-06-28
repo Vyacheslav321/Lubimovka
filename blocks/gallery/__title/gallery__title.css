@@ -1,0 +1,21 @@
+.gallery__title {
+  margin: 0 calc(50% - 193px) 40px 50%;
+  transform: translateX(calc(-50% - 193px));
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+  max-width: 327px;
+  width: 100%;
+}
+
+@media screen and (max-width: 730px) {
+  .gallery__title {
+    font-size: 28px;
+    line-height: 1.14;
+    max-width: 250px;
+    margin: 0 auto 20px 24px;
+    transform: translateX(0);
+  }
+  
+}

@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+@import url(../vendor/fancyapps.css);
 
 @import url(../blocks/root/root.css);
 @import url(../blocks/root/_lock/root_lock.css);
@@ -69,3 +70,9 @@
 @import url(../blocks/book/__title/book__title.css);
 @import url(../blocks/book/__watch-btn/book__watch-btn.css);
 @import url(../blocks/book/__hidden-title/book__hidden-title.css);
+
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__title/gallery__title.css);
+@import url(../blocks/gallery/__list/gallery__list.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
+@import url(../blocks/gallery/__image/gallery__image.css);

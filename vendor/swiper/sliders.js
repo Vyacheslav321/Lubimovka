@@ -3,10 +3,9 @@ import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
 export const reviewSlider = new Swiper('.review-slider', {
 
   // Optional parameters
-  slidesPerView: '3',
-
+  slidesPerView: 'auto',
+  centeredSlides: true,
   spaceBetween: 30,
-  centerSlides: true,
   pagination: {
     el: ".review-slider__pagination",
     clickable: true,

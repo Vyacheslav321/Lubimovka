@@ -1,2 +1,14 @@
 @import url('https://unpkg.com/swiper@8/swiper-bundle.min.css');
 
+.swiper-slide-next, .swiper-slide-prev {
+  height: 530px !important;
+  opacity: .4;
+}
+
+.swiper-slide-next .review-post__paragraph {
+  max-height: 252px;
+}
+
+.swiper-slide-prev .review-post__paragraph {
+  max-height: 252px;
+}

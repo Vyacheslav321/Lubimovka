@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../vendor/fancyapps.css);
+@import url(../vendor/swiper/sliders.css);
 
 @import url(../blocks/root/root.css);
 @import url(../blocks/root/_lock/root_lock.css);
@@ -76,3 +77,16 @@
 @import url(../blocks/gallery/__list/gallery__list.css);
 @import url(../blocks/gallery/__item/gallery__item.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
+
+@import url(../blocks/review/review.css);
+@import url(../blocks/review/__title/review__title.css);
+@import url(../blocks/review/__buton/review__button.css);
+@import url(../blocks/review/__buton/_back/review__button_back.css);
+@import url(../blocks/review-slider/review-slider.css);
+@import url(../blocks/review-slider/__list/review-slider__list.css);
+@import url(../blocks/review-slider/__item/review-slider__item.css);
+
+@import url(../blocks/review-post/review-post.css);
+@import url(../blocks/review-post/__logo/review-post__logo.css);
+@import url(../blocks/review-post/__paragraph/review-post__paragraph.css);
+@import url(../blocks/review-post/__link/review-post__link.css);

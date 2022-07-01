@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #242424 solid 1px;
+}
+
+@media screen and (max-width: 645px) {
+  .header {
+    border: none;
+  }
+}

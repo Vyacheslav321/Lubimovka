@@ -1,0 +1,9 @@
+.header__body-logo {
+  display: block;
+}
+
+@media screen and (max-width: 645px){
+  .header__body-logo {
+    margin: 48px auto 0 58px;
+  }
+}

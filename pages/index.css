@@ -91,3 +91,7 @@
 @import url(../blocks/review-post/__logo/review-post__logo.css);
 @import url(../blocks/review-post/__paragraph/review-post__paragraph.css);
 @import url(../blocks/review-post/__link/review-post__link.css);
+
+@import url(../blocks/audience-reviews-post/audience-reviews-post.css);
+@import url(../blocks/audience-reviews-post/__text/audience-reviews-post__text.css);
+@import url(../blocks/audience-reviews-post/__author/audience-reviews-post__author.css);

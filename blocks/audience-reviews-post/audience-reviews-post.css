@@ -1,0 +1,18 @@
+.audience-reviews-post {
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 33px 29px 24px 31px;
+  width: 420px;
+  height: 361px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 645px) {
+  .audience-reviews-post {
+    padding: 72px 28px 100px 27px;
+    height: 476px;
+    width: 100%;
+  }
+}

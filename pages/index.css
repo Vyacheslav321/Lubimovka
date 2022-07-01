@@ -85,6 +85,7 @@
 @import url(../blocks/review-slider/review-slider.css);
 @import url(../blocks/review-slider/__list/review-slider__list.css);
 @import url(../blocks/review-slider/__item/review-slider__item.css);
+@import url(../blocks/review-slider/__pagination/review-slider__pagination.css);
 
 @import url(../blocks/review-post/review-post.css);
 @import url(../blocks/review-post/__logo/review-post__logo.css);

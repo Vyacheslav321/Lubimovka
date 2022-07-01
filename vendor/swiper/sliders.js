@@ -5,7 +5,9 @@ export const reviewSlider = new Swiper('.review-slider', {
   // Optional parameters
   slidesPerView: 'auto',
   centeredSlides: true,
+  speed: 800,
   spaceBetween: 30,
+  loop: true,
   pagination: {
     el: ".review-slider__pagination",
     clickable: true,

@@ -1,5 +1,9 @@
 @import url('https://unpkg.com/swiper@8/swiper-bundle.min.css');
 
+.swiper {
+  position: inherit;
+}
+
 .swiper-slide-next, .swiper-slide-prev {
   height: 530px !important;
   opacity: .4;
@@ -11,4 +15,50 @@
 
 .swiper-slide-prev .review-post__paragraph {
   max-height: 252px;
+}
+
+.swiper-pagination-horizontal {
+  display: inline-flex;
+  justify-content: right;
+  align-items: center;
+  gap: 16px;
+}
+
+.swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+  background: none;
+  border: 1px solid black;
+  opacity: 1;
+  transition: all .7s;
+}
+
+.swiper-pagination-bullet:hover {
+  background-color: black;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: black;
+  width: 8px;
+  height: 8px;
+}
+
+.review-slider_navigation {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-grow: 1;
+}
+
+.review-slider__body {
+  display: flex;
+  width: 718px;
+  margin: 0 auto 40px auto;
+  justify-content: space-between;
+}
+
+.review-slider__buttons {
+  display: flex;
+  gap: 20px;
+  flex-grow: 1;
 }

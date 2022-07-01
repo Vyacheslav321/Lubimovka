@@ -7,4 +7,5 @@
   overflow: hidden;
   max-height: 504px;
   text-overflow: ellipsis;
+  transition: all .7s;
 }

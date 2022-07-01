@@ -62,3 +62,29 @@
   gap: 20px;
   flex-grow: 1;
 }
+
+@media screen and (max-width: 645px) {
+  .swiper-pagination-horizontal {
+    position: absolute;
+    z-index: 2;
+    justify-content: start;
+    display: block;
+    top: 175px;
+    margin-left: 29px;
+  }
+
+  .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin-right: 16px;
+  }
+
+  .review-slider__body {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 24px;
+  }
+
+  .review-slider_navigation {
+    flex-grow: 0;
+  }
+
+}

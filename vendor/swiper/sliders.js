@@ -33,7 +33,6 @@ export const reviewSlider = new Swiper('.review-slider', {
 
 export const audienceReviewsSlider = new Swiper('.audience-reviews', {
   speed: 800,
-  
   spaceBetween: 30,
   loop: true,
   simulateTouch: true,

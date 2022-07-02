@@ -52,6 +52,7 @@
 @keyframes background {
   100% {
     background: url("../../../images/arrow-right-light.svg") #000 center no-repeat ;
+    background-size: 35px;
   }
 }
 

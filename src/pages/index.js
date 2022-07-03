@@ -117,6 +117,18 @@ Fancybox.bind("[data-fancybox]", {
       ArrowDown: "prev",
       ArrowRight: "next",
       ArrowLeft: "prev",
+      Thumbs: {
+        autoStart: false,
+      },
+      Toolbar: {
+        display: [
+          "zoomIn",
+          "zoomOut",
+          "slideshow",
+          "thumbs",
+          "close",
+        ],
+      },
     },
     l10n: {
       CLOSE: "Закрыть",

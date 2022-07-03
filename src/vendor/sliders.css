@@ -1,4 +1,3 @@
-
 .swiper {
   position: inherit;
 
@@ -22,6 +21,7 @@
   justify-content: right;
   align-items: center;
   gap: 16px;
+  height: 25px;
 }
 
 .swiper-pagination-bullet {

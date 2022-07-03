@@ -5,4 +5,9 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
+  transition: transform .7s;
+}
+
+.wrapper_is-active {
+  transform: translateY(73px);
 }

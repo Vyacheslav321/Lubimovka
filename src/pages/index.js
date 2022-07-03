@@ -14,11 +14,11 @@ const videoPoster = document.querySelector('.video__poster');
 const videoHidden = document.querySelector('.video__hidden');
 
 const burgerElement = document.querySelector('.menu-burger');
-const burgerTopNavigation = new Burger('nav', 'menu-burger');
+const burgerTopNavigation = new Burger('wrapper', 'menu-burger');
 const burgerScrollNavigation = new Burger('header__body', 'menu-burger');
 
 const activateNavigation = () => {
-  const screenWidth = window.screen.width;
+  const screenWidth = window.innerWidth;
   if (screenWidth <= 645) {
     burgerScrollNavigation.handleToggle();
     burgerScrollNavigation.disableScroll();

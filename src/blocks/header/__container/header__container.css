@@ -8,9 +8,11 @@
   gap: 12px;
   border-left: #242424 solid 1px;
   border-right: #242424 solid 1px;
+  flex: 1 0 205px;
+  justify-content: space-around;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1325px) {
   .header__container {
     margin: 0;
   }
@@ -27,6 +29,7 @@
     gap: 0;
     border: 0;
     align-items: start;
+    flex: 0;
   }
 
   .header__container .nav__link {

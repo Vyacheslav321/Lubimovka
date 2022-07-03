@@ -5,10 +5,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 44px;
+  column-gap: 44px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1440px) {
+  .nav {
+    column-gap: 22px;
+  }
+}
+
+@media screen and (max-width: 1325px) {
   .nav {
     order: 5;
     width: 100%;
@@ -16,7 +22,7 @@
     min-height: 72px;
     padding: 0 20px;
     border-bottom: 1px solid black;
-    margin: -73px 0 0 0;
+    margin: -73px 0 0;
   }
 }
 

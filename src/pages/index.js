@@ -39,13 +39,11 @@ playBtn.addEventListener('click', () => {
 
 Swiper.use([Navigation, Pagination]);
 
-export const reviewSlider = new Swiper('.review-slider', {
+const reviewSlider = new Swiper('.review-slider', {
 
   speed: 800,
   spaceBetween: 30,
   setTransition: 1,
-  simulateTouch: true,
-  grabCursor: true,
   pagination: {
     el: ".review-slider__pagination",
     clickable: true,
@@ -70,12 +68,10 @@ export const reviewSlider = new Swiper('.review-slider', {
   }
 })
 
-export const audienceReviewsSlider = new Swiper('.audience-reviews', {
+const audienceReviewsSlider = new Swiper('.audience-reviews', {
   speed: 800,
   spaceBetween: 30,
   loop: true,
-  simulateTouch: true,
-  grabCursor: true,
   slideNextClass: 'audience-reviews__next',
   slidePrevClass: 'audience-reviews__prev',
   pagination: {
@@ -87,15 +83,13 @@ export const audienceReviewsSlider = new Swiper('.audience-reviews', {
   navigation: {
     nextEl: '.review-slider__button-next',
     prevEl: '.review-slider__button-prev',
+    simulateTouch: false,
   },
 
   breakpoints: {
     0: {
       slidesPerView: 1,
       slidesPerGroup: 1,
-      fadeEffect: {
-        crossFade: true
-      },
     },
     645: {
       slidesPerView: 3,

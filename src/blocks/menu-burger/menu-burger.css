@@ -11,7 +11,7 @@
   transition: opacity .6s;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1325px) {
   .menu-burger {
     display: block;
   }
@@ -25,6 +25,6 @@
   .menu-burger {
     position: fixed;
     right: 0;
-    bottom: 12%;
+    top: 82%;
   }
 }

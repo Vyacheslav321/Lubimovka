@@ -4,11 +4,10 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import './index.css';
+
 import {Burger} from "../components/Burger.js";
 import Swiper, { Navigation, Pagination } from 'swiper';
 import {Fancybox} from "@fancyapps/ui";
-
-
 
 const playBtn = document.querySelector('.video__play-btn');
 const videoPoster = document.querySelector('.video__poster');
@@ -105,8 +104,7 @@ export const audienceReviewsSlider = new Swiper('.audience-reviews', {
   }
 })
 
-Fancybox.show(
-  {
+Fancybox.bind("[data-fancybox]", {
     infinite: true,
     dragToClose: true,
     keyboard: {
@@ -132,5 +130,4 @@ Fancybox.show(
       AJAX_FORBIDDEN: "Error Loading AJAX : Forbidden",
       IFRAME_ERROR: "Error Loading Page",
     }
-  }
-);
+  });

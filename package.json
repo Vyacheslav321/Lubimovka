@@ -37,6 +37,7 @@
   "dependencies": {
     "@fancyapps/ui": "^4.0.27",
     "core-js": "^3.23.3",
+    "jquery": "^3.6.0",
     "swiper": "^8.2.6"
   }
 }

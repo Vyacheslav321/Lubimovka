@@ -1,7 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../vendor/fancyapps.css);
-@import url(../vendor/swiper/sliders.css);
+@import url(../vendor/sliders.css);
 
 @import url(../blocks/root/root.css);
 @import url(../blocks/root/_lock/root_lock.css);

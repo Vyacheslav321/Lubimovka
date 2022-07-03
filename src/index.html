@@ -8,16 +8,15 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
   <meta name="author" content="">
-  <link rel="stylesheet" href="./pages/index.css">
   <title>Любимовка</title>
 </head>
 
 <body class="root">
 <div class="wrapper">
   <header class="header wrapper__header">
-    <a href="#" class="logo header__logo"><img src="/images/logo.svg" class="header__logo-img" alt="Логотип"></a>
+    <a href="#" class="logo header__logo"><img src="<%=require('./images/logo.svg')%>" class="header__logo-img" alt="Логотип"></a>
     <div class="header__body">
-      <a href="#" class="logo header__logo header__body-logo"><img src="/images/logo.svg" class="header__logo-img"
+      <a href="#" class="logo header__logo header__body-logo"><img src="<%=require('./images/logo.svg')%>" class="header__logo-img"
                                                                    alt="Логотип"></a>
       <nav class="nav">
         <a href="#" class="nav__link">Афиша</a>
@@ -41,7 +40,7 @@
         <a href="#" class="nav__link">tlgrm</a>
         <a href="#" class="nav__link">vk</a>
       </div>
-      <a href="#" class="button-link nav__link nav__link_accent"><img src="/images/plus.svg" alt="значек плюс"
+      <a href="#" class="button-link nav__link nav__link_accent"><img src="<%=require('./images/plus.svg')%>" alt="значек плюс"
                                                                       class="nav__plus">поддержать</a>
     </div>
   </header>
@@ -59,7 +58,7 @@
           <a class="two-columns__tickets interface-text" href="#">БИЛЕТЫ</a>
         </div>
         <div class="two-columns__container">
-          <img class="two-columns__photo" src="./images/from-school.jpg" alt="девушка с вуалью.">
+          <img class="two-columns__photo" src="<%=require('./images/from-school.jpg')%>" alt="девушка с вуалью.">
           <p class="two-columns__photo-text">Семён Серзин сделал читку этой пьесы в рамках основной программы
             Любимовки-2017, Варочный Цех предоставил грант на постановку, а Московский драматический театр имени А.С.
             Пушкина принял спектакль в репертуар.</p>
@@ -97,7 +96,7 @@
         <div class="two-columns__container">
           <div class="video">
             <button class="video__play-btn"></button>
-            <img class="video__poster" src="./images/video-poster.jpg" alt="превью видео.">
+            <img class="video__poster" src="<%=require('./images/video-poster.jpg')%>" alt="превью видео.">
             <iframe class="video__hidden" title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
@@ -151,43 +150,43 @@
       <h2 class="gallery__title">Заголовок блока с фотографиями</h2>
       <ul class="gallery__list">
         <li class="gallery__item">
-          <a data-fancybox="gallery" data-src="./images/rectangle-193.jpg">
-            <img class="gallery__image" src="./images/rectangle-193.jpg" alt="Мужчина и женщина на сцене">
+          <a data-fancybox="gallery" data-src="<%=require('./images/rectangle-193.jpg')%>">
+            <img class="gallery__image" src="<%=require('./images/rectangle-193.jpg')%>" alt="Мужчина и женщина на сцене">
           </a>
         </li>
         <li class="gallery__item">
-          <a data-fancybox="gallery" data-src="./images/rectangle-194.jpg">
-            <img class="gallery__image" src="./images/rectangle-194.jpg" alt="Женщина, читающая пьесу">
+          <a data-fancybox="gallery" data-src="<%=require('./images/rectangle-194.jpg')%>">
+            <img class="gallery__image" src="<%=require('./images/rectangle-194.jpg')%>" alt="Женщина, читающая пьесу">
           </a>
         </li>
         <li class="gallery__item">
-          <a data-fancybox="gallery" data-src="./images/rectangle-158.jpg">
-            <img class="gallery__image" src="./images/rectangle-158.jpg" alt="Мужчина, читающий пьесу">
+          <a data-fancybox="gallery" data-src="<%=require('./images/rectangle-158.jpg')%>">
+            <img class="gallery__image" src="<%=require('./images/rectangle-158.jpg')%>" alt="Мужчина, читающий пьесу">
           </a>
         </li>
         <li class="gallery__item">
-          <a data-fancybox="gallery" data-src="./images/rectangle-160.jpg">
-            <img class="gallery__image" src="./images/rectangle-160.jpg" alt="Люди, читающие пьесу">
+          <a data-fancybox="gallery" data-src="<%=require('./images/rectangle-160.jpg')%>">
+            <img class="gallery__image" src="<%=require('./images/rectangle-160.jpg')%>" alt="Люди, читающие пьесу">
           </a>
         </li>
         <li class="gallery__item">
-          <a data-fancybox="gallery" data-src="./images/rectangle-196.jpg">
-            <img class="gallery__image" src="./images/rectangle-196.jpg" alt="Слушатели пьесы">
+          <a data-fancybox="gallery" data-src="<%=require('./images/rectangle-196.jpg')%>">
+            <img class="gallery__image" src="<%=require('./images/rectangle-196.jpg')%>" alt="Слушатели пьесы">
           </a>
         </li>
         <li class="gallery__item">
-          <a data-fancybox="gallery" data-src="./images/rectangle-197.jpg">
-            <img class="gallery__image" src="./images/rectangle-197.jpg" alt="Девушка, читающая пьесу">
+          <a data-fancybox="gallery" data-src="<%=require('./images/rectangle-197.jpg')%>">
+            <img class="gallery__image" src="<%=require('./images/rectangle-197.jpg')%>" alt="Девушка, читающая пьесу">
           </a>
         </li>
         <li class="gallery__item">
-          <a data-fancybox="gallery" data-src="./images/rectangle-195.jpg">
-            <img class="gallery__image" src="./images/rectangle-195.jpg" alt="Люди, читающие пьесу">
+          <a data-fancybox="gallery" data-src="<%=require('./images/rectangle-195.jpg')%>">
+            <img class="gallery__image" src="<%=require('./images/rectangle-195.jpg')%>" alt="Люди, читающие пьесу">
           </a>
         </li>
         <li class="gallery__item">
-          <a data-fancybox="gallery" data-src="./images/rectangle-198.png">
-            <img class="gallery__image" src="./images/rectangle-198.png" alt="Девушка, читающая пьесу">
+          <a data-fancybox="gallery" data-src="<%=require('././images/rectangle-198.png')%>">
+            <img class="gallery__image" src="<%=require('./images/rectangle-198.png')%>" alt="Девушка, читающая пьесу">
           </a>
         </li>
       </ul>
@@ -208,7 +207,7 @@
         </div>
         <div class="swiper-wrapper review-slider__list">
           <div class="swiper-slide review-post review-slider__item ">
-            <img class="review-post__logo" src="./images/new-york-time-logo.png" alt="Логотип издания">
+            <img class="review-post__logo" src="<%=require('./images/new-york-time-logo.png')%>" alt="Логотип издания">
             <p class="review-post__paragraph">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной
               церкви в Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей
               отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой
@@ -221,7 +220,7 @@
             <a href="#" class="review-post__link">Читать полностью</a>
           </div>
           <div class="swiper-slide review-post review-slider__item ">
-            <img class="review-post__logo" src="./images/dog-logo.svg" alt="Логотип издания">
+            <img class="review-post__logo" src="<%=require('./images/dog-logo.svg')%>" alt="Логотип издания">
             <p class="review-post__paragraph">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной
               церкви в Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей
               отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой
@@ -230,7 +229,7 @@
             <a href="#" class="review-post__link">Читать полностью</a>
           </div>
           <div class="swiper-slide review-post review-slider__item ">
-            <img class="review-post__logo" src="./images/new-york-time-logo.png" alt="Логотип издания">
+            <img class="review-post__logo" src="<%=require('./images/new-york-time-logo.png')%>" alt="Логотип издания">
             <p class="review-post__paragraph">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной
               церкви в Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей
               отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой
@@ -243,7 +242,7 @@
             <a href="#" class="review-post__link">Читать полностью</a>
           </div>
           <div class="swiper-slide review-post review-slider__item ">
-            <img class="review-post__logo" src="./images/new-york-time-logo.png" alt="Логотип издания">
+            <img class="review-post__logo" src="<%=require('./images/new-york-time-logo.png')%>" alt="Логотип издания">
             <p class="review-post__paragraph">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной
               церкви в Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей
               отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой
@@ -346,7 +345,7 @@
     <!--Share spectacles-->
     <section class="share-spectacles">
       <div class="banner share-spectacles__container">
-        <img class="banner__image" src="./images/spectacles-scene.jpg" alt="Спектальная сцена">
+        <img class="banner__image" src="<%=require('./images/spectacles-scene.jpg')%>" alt="Спектальная сцена">
       </div>
       <div class="share-spectacles__wrapper">
         <ul class="social-network">
@@ -369,10 +368,6 @@
   </footer>
 </div>
 
-<script src="./video.js"></script>
-<script type="module" src="./pages/index.js"></script>
-<script type="module" src="./vendor/fancyapps.js"></script>
-<script type="module" src="./vendor/swiper/sliders.js"></script>
 </body>
 
 </html>

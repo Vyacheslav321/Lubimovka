@@ -5,7 +5,7 @@
   "main": "babel.config.js",
   "scripts": {
     "build": "webpack --mode production",
-    "dev": "webpack-dev-server --host 192.168.0.187",
+    "dev": "webpack-dev-server",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },

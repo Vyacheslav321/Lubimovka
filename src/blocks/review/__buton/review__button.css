@@ -51,12 +51,7 @@
 
 @keyframes background {
   100% {
-    background: url("../../../images/arrow-right-light.svg") #000 center no-repeat ;
+    background: url("../../../images/arrow-right-light.svg") #000 center no-repeat;
     background-size: 35px;
   }
 }
-
-/*.review__button:hover {
-  background: url("../../../images/arrow-right-light.svg") center no-repeat #000000;
-  clip-path: circle(100%);
-}*/

@@ -1,0 +1,37 @@
+.review-post__link {
+  color: #000;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: .88;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 8px 12px 8px 28px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+
+  margin-top: 40px;
+  display: inline-block;
+  position: relative;
+
+  transition: all .7s;
+}
+
+.review-post__link:after {
+  content: '';
+  background: url("../../../images/arrow-right.svg") no-repeat;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  left: 0;
+  transform: rotate(-45deg);
+}
+
+.review-post__link:hover {
+  background-color: #000;
+  color: #ECEBE8;
+}
+
+.review-post__link:hover:after {
+  background: url("../../../images/arrow-right-light.svg") no-repeat;
+}

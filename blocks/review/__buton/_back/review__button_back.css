@@ -1,0 +1,7 @@
+.review__button_back {
+  transform: rotate(-180deg);
+}
+
+.review__button_back:hover:before {
+  transform: rotate(-180deg);
+}

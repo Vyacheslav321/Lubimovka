@@ -8,10 +8,26 @@
     display: grid;
     column-gap:75px;
     row-gap: 15px;
-    grid-template-areas: 
+    grid-template-areas:
     "logo general general"
     "logo adress menu"
     "logo copyright design";
     grid-template-columns: 95px auto auto;
     grid-template-rows: 80px auto 40px;
+}
+
+@media screen and (max-width: 444px) {
+    .footer {
+      max-width: 100%;
+      margin: 0 10px 0;
+      grid-template-areas:
+      "logo"
+      "adress"
+      "menu"
+      "general"
+      "copyright"
+      "design";
+      grid-template-columns: fit-content;
+      grid-template-rows: auto; 
+    }
 }

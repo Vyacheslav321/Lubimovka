@@ -1,0 +1,14 @@
+.footer__general_type_online {
+  display: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media screen and (max-width: 1184px) {
+  .footer__general_type_online {
+    display: block;
+    max-width: 170px;
+    padding: 10px 4px 0 0px;
+    line-height: 20px;
+  }
+}

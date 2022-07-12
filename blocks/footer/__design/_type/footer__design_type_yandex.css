@@ -2,3 +2,10 @@
   padding: 16px 37px 0 0;
   max-width: 230px;
 }
+
+@media screen and (max-width: 1184px) {
+  .footer__design_type_yandex {
+    margin: 0;
+    max-width: 240px;
+  }
+}

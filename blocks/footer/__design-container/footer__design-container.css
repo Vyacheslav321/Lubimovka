@@ -1,6 +1,25 @@
 .footer__design-container {
-    grid-area: design;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end
+  grid-area: design;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 1184px) {
+  .footer__design-container {
+    margin: 14px 0 0 0;
+    padding: 0 0 0 14px;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    line-height: 17px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .footer__design-container {
+    grid-template-columns: 300px;
+    margin: 0 auto;
+    padding: 0;
+  }
 }

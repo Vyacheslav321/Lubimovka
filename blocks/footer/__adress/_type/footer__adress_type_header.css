@@ -6,7 +6,14 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  /* identical to box height, or 120% */
   letter-spacing: -0.01em;
   color: #242424;
+}
+
+@media screen and (max-width: 1184px) {
+  .footer__adress_type_header {
+    align-content: start;
+    justify-items: start;
+    padding: 0 0 11px;
+  }
 }

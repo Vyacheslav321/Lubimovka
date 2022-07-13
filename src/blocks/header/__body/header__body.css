@@ -1,6 +1,8 @@
 .header__body {
   display: flex;
   justify-content: space-between;
+  max-width: 1440px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1325px) {

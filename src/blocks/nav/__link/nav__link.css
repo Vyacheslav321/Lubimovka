@@ -15,6 +15,12 @@
   text-decoration: underline;
 }
 
+@media screen and (max-width: 1325px) {
+  .nav .nav__link {
+    font-size: 13px;
+  }
+}
+
 @media screen and (max-width: 645px){
   .nav__link {
     font-size: 28px;
@@ -22,3 +28,4 @@
     letter-spacing: -0.01em;
   }
 }
+

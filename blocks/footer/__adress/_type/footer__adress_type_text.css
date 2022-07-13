@@ -1,0 +1,17 @@
+.footer__adress_type_text {
+  margin: 0;
+  padding: 0 0 0 8px;
+  max-width: 150px;
+  hyphens: manual;
+}
+
+@media screen and (max-width: 1184px) {
+  .footer__adress_type_text {
+    align-content: start;
+    justify-items: start;
+    padding: 0px 0 0;
+    font-size: 16px;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+}

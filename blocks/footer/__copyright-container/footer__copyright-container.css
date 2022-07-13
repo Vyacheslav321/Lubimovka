@@ -1,0 +1,17 @@
+.footer__copyright-container {
+  grid-area: copyright;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 1184px) {
+  .footer__copyright-container {
+    margin: 23px 0 0 0;
+    padding: 30px 0 0 0;
+    flex-direction: column;
+    align-content:flex-start;
+    border-top: 1px solid #242424;
+  }
+}

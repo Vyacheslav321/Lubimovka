@@ -1,0 +1,11 @@
+.footer__adress {
+  grid-area: adress;
+}
+
+@media screen and (max-width: 1184px) {
+  .footer__adress {
+    align-content: start;
+    justify-items: start;
+    padding: 1px 0 0 41px;
+  }
+}

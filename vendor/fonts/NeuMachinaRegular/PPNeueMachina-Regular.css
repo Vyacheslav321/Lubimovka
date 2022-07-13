@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'NeueMachina';
+  src: url("./PPNeueMachina-Regular.eot");
+  src:
+      url('./PPNeueMachina-Regular.eot') format('embedded-opentype'),
+      url('./PPNeueMachina-Regular.ttf') format('ttf'),
+      url('./PPNeueMachina-Regular.woff2') format('woff2'),
+      url('./PPNeueMachina-Regular.woff') format('woff');
+  font-weight: regular;
+  font-style: normal;
+};

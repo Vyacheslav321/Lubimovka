@@ -1,0 +1,68 @@
+.footer {
+  margin: 0;
+  padding: 42px 32px 56px;
+  /* width: 100%; */
+  max-width: 1680px;
+  /* max-height: 492px; */
+  background-color: #ecebe8;
+  display: grid;
+  column-gap: 75px;
+  row-gap: 15px;
+  grid-template-areas:
+    "logo general general"
+    "logo adress menu"
+    "logo copyright design";
+  grid-template-columns: 95px auto auto;
+  grid-template-rows: 80px auto 40px;
+}
+
+@media screen and (max-width: 1220px) {
+  .footer {
+    grid-template-columns: 160px auto auto;
+    column-gap: 10px;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  .footer {
+    /* max-width: 100%; */
+    margin: 0;
+    padding: 56px 14px 74px;
+    grid-template-areas:
+      "logo"
+      "adress"
+      "menu"
+      "general"
+      "copyright"
+      "design";
+    grid-template-columns: minmax(min-content, 100vw);
+    grid-template-rows: 81px min-content min-content min-content 1fr 85px;
+    row-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 784px) {
+  .footer {
+    /* max-width: 100%; */
+    margin: 0;
+    padding: 56px 14px 74px;
+    grid-template-areas:
+      "logo"
+      "adress"
+      "menu"
+      "general"
+      "copyright"
+      "design";
+    grid-template-columns: minmax(min-content, 99%);
+    grid-template-rows: 81px min-content min-content min-content min-content min-content;
+    row-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .footer {
+    grid-template-columns: 300px;
+    margin: 0 auto;
+    padding: 56px 3px 74px;
+  }
+}

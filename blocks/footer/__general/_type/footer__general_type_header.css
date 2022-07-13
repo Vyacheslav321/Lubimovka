@@ -1,0 +1,11 @@
+.footer__general_type_header {
+    margin: 6px 0 0 5px;
+    padding: 0;
+    max-width: 145px;
+}
+
+@media screen and (max-width: 1184px) {
+    .footer__general_type_header {
+        display: none;
+    }
+}

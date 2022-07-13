@@ -1,0 +1,19 @@
+.footer__adress_type_header {
+  margin: 0;
+  padding: 4px 0 19px 8px;
+  font-family: "NeueMachina", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #242424;
+}
+
+@media screen and (max-width: 1184px) {
+  .footer__adress_type_header {
+    align-content: start;
+    justify-items: start;
+    padding: 0 0 11px;
+  }
+}

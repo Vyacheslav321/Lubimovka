@@ -1,0 +1,16 @@
+.review-post {
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 55px 89px 72px 88px;
+  width: 718px;
+  height: 782px;
+}
+
+@media screen and (max-width: 645px) {
+  .review-post {
+    width: 100%;
+    height: 1044px;
+    padding: 152px 27px 72px 26px;
+  }
+
+}

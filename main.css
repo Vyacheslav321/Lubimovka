@@ -71,7 +71,7 @@
 .book__hidden-title{display:none}@media screen and (max-width:645px){.book__hidden-title{display:block;font-size:28px;font-style:normal;font-weight:400;letter-spacing:-.01em;line-height:1.14;margin:0 0 32px 5%;padding:0}}
 .gallery{margin-bottom:150px}@media screen and (max-width:425px){.gallery{margin-bottom:100px}}
 .gallery__title{font-size:40px;font-weight:400;letter-spacing:-.01em;line-height:1;margin:0 calc(50% - 193px) 40px 50%;max-width:327px;transform:translateX(calc(-50% - 193px));width:100%}@media screen and (max-width:730px){.gallery__title{font-size:28px;line-height:1.14;margin:0 auto 20px 24px;max-width:250px;transform:translateX(0)}}
-.gallery__list{display:grid;gap:1px;grid-template-columns:repeat(auto-fit,minmax(358px,1fr));list-style:none;padding:0}@media screen and (max-width:425px){.gallery__list{grid-template-columns:repeat(2,2fr)}}
+.gallery__list{display:grid;gap:1px;grid-template-columns:repeat(auto-fit,minmax(358px,1fr));list-style:none;padding:0}@media screen and (max-width:715px){.gallery__list{grid-template-columns:repeat(2,2fr)}}
 .gallery__item{cursor:pointer;max-height:251px}
 .gallery__image{height:100%;-o-object-fit:cover;object-fit:cover;width:100%}
 .review{margin:0 auto;position:relative}
